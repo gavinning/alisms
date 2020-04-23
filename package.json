@@ -2,9 +2,9 @@
   "name": "@4a/alisms",
   "version": "0.1.0",
   "description": "阿里云SMS",
-  "main": "index.js",
+  "main": "lib/alisms.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/alisms.spec.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/gavinning/alisms/issues"
   },
-  "homepage": "https://github.com/gavinning/alisms#readme"
+  "homepage": "https://github.com/gavinning/alisms#readme",
+  "devDependencies": {
+    "ioredis": "^4.16.3",
+    "mocha": "^7.1.1"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.9"
+  }
 }
