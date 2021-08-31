@@ -1,6 +1,6 @@
 {
   "name": "@4a/alisms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "阿里云SMS",
   "main": "lib/alisms.js",
   "scripts": {
